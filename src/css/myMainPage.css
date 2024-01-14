@@ -1,0 +1,21 @@
+.userPic {
+    width: 35%;
+    height: 35%;
+}
+.rightCards {
+    width: 840px;
+}
+.leftCards {
+    width: 385px;
+}
+.whiteColor {
+    color: 'white';
+}
+.blackColor {
+    color: 'black';
+}
+.unseen {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}

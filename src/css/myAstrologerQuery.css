@@ -1,0 +1,51 @@
+.astrologer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.astrologer-card {
+    /* width: calc(16.66667% - 10px); */
+    /* 6 cards in a row with spacing */
+    width: calc(47% - 1px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+}
+
+.astrologer-chat {
+    text-align: left;
+}
+
+/* Optional: Style for selected cards */
+.astrologer-card.selected {
+    background-color: #f0f0f0;
+    border: 1px solid #007bff;
+    /* Change border color for selected cards */
+}
+
+.astrologer-card h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.verified {
+    margin: 10px 0;
+    font-size: 16px;
+    color: green;
+}
+.notverified {
+    margin: 10px 0;
+    font-size: 16px;
+    color: red;
+}
+.green-dot {
+    color: green; /* Adjust the spacing as needed */
+}
+.red-dot {
+    color: red; /* Adjust the spacing as needed */
+}

@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const AUTH_URL = "http://localhost:8080/api/auth/";
-const OTP_URL = "http://localhost:8080/api/otp/"
+const AUTH_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/api/auth/";
+const OTP_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/api/otp/"
 
 const register = (signupForm) => {
   return axios.post(AUTH_URL + "signup", signupForm);

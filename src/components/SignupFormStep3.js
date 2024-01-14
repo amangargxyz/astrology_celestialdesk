@@ -163,6 +163,10 @@ function SignupFormStep3({ state, dispatch, prevStep, submitForm, changeHandler,
                                                 )}
                                             </div>
                                         )}
+                                        <p style={{ width: '500px', color: 'white', fontStyle: 'italic' }}>
+                                        <i className="fa fa-info-circle icon"
+                                            style={{ position: 'relative', left: '0px', top: '0px' }}
+                                        />Select 'Other' option if your city name is not available in the list.</p>
                                     </div>
                                 )}
                             </div>

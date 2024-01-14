@@ -48,6 +48,10 @@
     font-size: 15px;
     padding: 10px;
 }
+.cityDisclaimer {
+    color: white;
+    width: 500px;
+}
 input[type=text], input[type=password] {
     width: 350%;
       border: 1px solid #ccc;

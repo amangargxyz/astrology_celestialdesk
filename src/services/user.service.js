@@ -1,11 +1,13 @@
 import axios from "axios"
 import authHeader from "./auth-header"
 
-const QUERY_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/astrology/query/"
-const REPLY_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000astrology/reply/"
-const USER_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/astrology/user/"
-const ASTROLOGER_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/astrology/astrologer/"
-const CLIENT_URL = "http://ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000/astrology/client/"
+// const HOSTNAME = "ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000"
+const HOSTNAME = "ec2-3-26-8-123.ap-southeast-2.compute.amazonaws.com:8000"
+const QUERY_URL = "http://" + HOSTNAME + "/astrology/query/"
+const REPLY_URL = "http://" + HOSTNAME + "/astrology/reply/"
+const USER_URL = "http://" + HOSTNAME + "/astrology/user/"
+const ASTROLOGER_URL = "http://" + HOSTNAME + "/astrology/astrologer/"
+const CLIENT_URL = "http://" + HOSTNAME + "/astrology/client/"
 
 //<<<<<<<<<<<< Query Apis >>>>>>>>>>>>>>
 

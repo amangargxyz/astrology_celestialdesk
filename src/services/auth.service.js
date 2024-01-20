@@ -1,7 +1,9 @@
 import axios from "axios";
 
 // const HOSTNAME = "ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000"
-const HOSTNAME = "ec2-3-26-8-123.ap-southeast-2.compute.amazonaws.com:8000"
+// const HOSTNAME = "ec2-3-26-8-123.ap-southeast-2.compute.amazonaws.com:8000"
+// const HOSTNAME = "localhost:8080"
+const HOSTNAME = "159.89.167.20:8080";
 const AUTH_URL = "http://" + HOSTNAME + "/api/auth/";
 const OTP_URL = "http://" + HOSTNAME + "/api/otp/"
 

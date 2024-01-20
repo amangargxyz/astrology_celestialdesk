@@ -280,21 +280,21 @@ function SignupFormStep3({ state, dispatch, prevStep, submitForm, changeHandler,
                                         <div className="header"> Disclaimer </div>
                                         <div className="content">
                                             {' '}
+                                            <input type="checkbox" style={{
+                                                position: 'relative',
+                                                left: '1%',
+                                                top: '-135px'
+                                            }} onClick={() => setIsDisclaimerAccepted(!isDisclaimerAccepted)} />
                                             <label style={{
                                                 position: 'relative',
                                                 bottom: '0px',
                                                 left: '20px',
                                                 color: 'black',
                                                 fontSize: '15px',
-                                                width: '700px',
+                                                width: '90%',
                                                 textAlign: 'justify'
                                             }}>This website shows, provides and contains information for general purpopses only. Any fact or information can't be use for legal purpose. Though we endeavor to keep the information up to date and correct, we make no warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability ,correctness of the information, products, services provided by this platform. Any action you take on the basis of information/service provided on this platform must be strictly at your own free will and own risk. We advise you to use infromation or service provided on this platform for entertainment purpose only.
                                             </label>
-                                            <input type="checkbox" style={{
-                                                position: 'relative',
-                                                left: '-700px',
-                                                top: '-135px'
-                                            }} onClick={() => setIsDisclaimerAccepted(!isDisclaimerAccepted)} />
                                         </div>
                                         <div className="actions">
                                             <button

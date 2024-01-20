@@ -38,13 +38,13 @@
 }
 .statelabel {
     position: relative;
-    left: 540px;
+    left: 36%;
     font-size: 20px;
     padding: 10px;
 }
 .stateselect {
     position: relative;
-    left: 150px;
+    left: 130%;
     font-size: 15px;
     padding: 10px;
 }

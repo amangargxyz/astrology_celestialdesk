@@ -2,7 +2,9 @@ import axios from "axios"
 import authHeader from "./auth-header"
 
 // const HOSTNAME = "ec2-13-239-97-36.ap-southeast-2.compute.amazonaws.com:8000"
-const HOSTNAME = "ec2-3-26-8-123.ap-southeast-2.compute.amazonaws.com:8000"
+// const HOSTNAME = "ec2-3-26-8-123.ap-southeast-2.compute.amazonaws.com:8000"
+// const HOSTNAME = "localhost:8080"
+const HOSTNAME = "159.89.167.20:8080";
 const QUERY_URL = "http://" + HOSTNAME + "/astrology/query/"
 const REPLY_URL = "http://" + HOSTNAME + "/astrology/reply/"
 const USER_URL = "http://" + HOSTNAME + "/astrology/user/"
